@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="./assets/script.js"></script>
+  </head>
+  <body class="overflow-x-hidden">
+    <!-- Navber  -->
+    <header
+      class="h-20 top-0 left-0 right-0 bg-[#1E1D2D] backdrop-blur-lg z-[100]"
+    >
+      <div
+        class="container mx-auto w-full h-full flex justify-between items-center text-white"
+      >
+        <nav class="nav-left p-3 lg:p-0">
+          <img src="./assets/image/logo.png" alt="logo" />
+        </nav>
+        <nav class="nav-right hidden sm:block">
+          <ul class="flex gap-5">
+            <li>
+              <a href="/" class=""> Home </a>
+            </li>
+            <li>
+              <span href="/service" class=""> Service </span>
+            </li>
+            <li>
+              <a href="/career" class=""> Career </a>
+            </li>
+            <li>
+              <a href="/about" class=""> About Us </a>
+            </li>
+            <li><button>Contact Us</button></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="w-full h-full">
+      <!-- hero section  -------------------------------------------------------------->
+      <div class="w-full h-[70vh] sm:h-[80vh] bg-[#1E1D2D]">
+        <div class="w-full h-full sm:grid grid-cols-2 container mx-auto p-5">
+          <div
+            class="left w-full h-full col-span-1 flex flex-col gap-5 sm:justify-center items-center md:items-start"
+          >
+            <h1
+              class="text-white text-4xl lg:text-6xl text-center md:text-start"
+            >
+              Stay ahead with creative, strateg solutions, leadin the curve.
+            </h1>
+            <p class="text-white/80 text-xl text-center md:text-start">
+              we're a global, full-service creative agency collaborating with
+              brands worldwide.
+            </p>
+            <button
+              class="bg-[#FFAD01] rounded-lg text-center w-52 p-3 text-xl"
+            >
+              Schedule A Meeting
+            </button>
+          </div>
+          <div
+            class="right hidden sm:block w-full h-full cols-span-1 overflow-hidden"
+          >
+            <img
+              src="./assets/image/hero.png"
+              alt="img"
+              class="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- section gap  -->
+      <div
+        class="w-full h-32 md:h-20 bg-[#FFF9EB] flex justify-center items-center"
+      >
+        <p class="text-xl md:text-1xl lg:text-2xl xl:text-3xl p-2 text-center">
+          Gcontent integrates strategy, marketing, design and technology to
+          drive customer preference.
+        </p>
+      </div>
+
+      <!-- Servicess ---------------------------------------- -->
+      <section class="mt-5 md:mt-10 container mx-auto">
+        <div class="section title">
+          <h2 class="text-center text-4xl font-semibold">Our Services</h2>
+        </div>
+
+        <div
+          class="mt-5 md:mt-10 w-full h-full container mx-auto flex flex-col sm:grid sm:grid-cols-5 gap-5 p-3 lg:p-0"
+        >
+          <div
+            class="col-span-2 h-[14rem] md:h-[36rem] border shadow-md p-5 md:p-10 rounded-lg"
+          >
+            <div class="flex flex-col gap- md:gap-5 m-0 md:mt-5">
+              <div class="w-20">
+                <img src="./assets/image/ux.png" alt="uixi" />
+              </div>
+              <h2 class="text-lg md:text-4xl font-semibold">UI/UX Design</h2>
+              <p class="text-md sm:text-lg md:text-xl">
+                Revolutionize user experiences with our cutting-edge UI/UX
+                Design service.
+              </p>
+            </div>
+          </div>
+
+          <div class="w-full h-full col-span-3 grid grid-cols-2 gap-5">
+            <div class="h-full col-span-1 flex flex-col justify-between gap-5">
+              <div
+                class="h-[15rem] md:h-[17rem] border rounded-lg flex flex-col md:gap-3 md:p-8 p-3 gap-1"
+              >
+                <div class="w-10">
+                  <img src="./assets/image/Vector (1).png" alt="image" />
+                </div>
+                <h2 class="text-md md:text-xl lg:text-2xl font-semibold">
+                  Content Writing
+                </h2>
+                <p class="text-sm md:text-md lg:text-lg">
+                  We offer content writing as a solution to your content
+                  marketing challenges.
+                </p>
+              </div>
+              <div
+                class="h-[15rem] md:h-[17rem] border rounded-lg flex flex-col md:gap-3 md:p-8 p-3 gap-1"
+              >
+                <div class="">
+                  <img src="./assets/image/Frame.jpg" alt="image" />
+                </div>
+                <h2 class="text-md md:text-xl lg:text-2xl font-semibold">
+                  Digital Marketing
+                </h2>
+                <p class="text-sm md:text-md lg:text-lg">
+                  Comprehensive digital marketing solutions that are strategic
+                  for your brand.
+                </p>
+              </div>
+            </div>
+            <div class="h-full col-span-1 flex flex-col gap-5 justify-between">
+              <div
+                class="h-[15rem] md:h-[17rem] border rounded-lg flex flex-col md:gap-3 md:p-8 p-3 gap-1"
+              >
+                <div class="w-10">
+                  <img src="./assets/image/Vector.png" alt="image" />
+                </div>
+                <h2 class="text-md md:text-xl lg:text-2xl font-semibold">
+                  Video Editing
+                </h2>
+                <p class="text-sm md:text-md lg:text-lg">
+                  Engaging and high-end video and photography services to help
+                  your business stand out.
+                </p>
+              </div>
+              <div
+                class="h-[15rem] md:h-[17rem] border rounded-lg flex flex-col md:gap-3 md:p-8 p-3 gap-1"
+              >
+                <div class="">
+                  <img src="./assets/image/Group.png" alt="image" />
+                </div>
+                <h2 class="text-md md:text-xl lg:text-2xl font-semibold">
+                  Green Screen
+                </h2>
+                <p class="text-sm md:text-md lg:text-lg">
+                  Engaging and high-end video and photography services to help
+                  your business stand out.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Some of our hand-picked work--------------------------------- -->
+      <section class="mt-5 md:mt-10 container mx-auto p-3 lg:p-0">
+        <div class="">
+          <h2 class="text-center mt-0 md:mt-5 text-4xl font-semibold">
+            Some of our hand-picked work
+          </h2>
+          <div
+            class="mt-10 w-full h-full flex flex-col sm:grid sm:grid-cols-3 gap-10"
+          >
+            <!-- cart 1------------- -->
+            <div class="bg-[#FFF8EB] w-full h-full col-span-1 rounded-lg">
+              <div class="w-full flex justify-center p-5">
+                <img src="./assets/image/Rectangle 331.png" alt="image" />
+              </div>
+              <p class="p-5 text-xl">
+                When Jana Ojana Media and Gcontent collaborated
+              </p>
+            </div>
+            <!-- cart 2------------- -->
+            <div class="bg-[#FFF8EB] w-full h-full col-span-1 rounded-lg">
+              <div class="w-full flex justify-center p-5">
+                <img src="./assets/image/Rectangle 331 (1).png" alt="image" />
+              </div>
+              <p class="p-5 text-xl">Video Editing for Bangla Star Media</p>
+            </div>
+            <!-- cart 3------------- -->
+            <div class="bg-[#FFF8EB] w-full h-full col-span-1 rounded-lg">
+              <div class="w-full flex justify-center p-5">
+                <img src="./assets/image/Rectangle 331 (2).png" alt="image" />
+              </div>
+              <p class="p-5 text-xl">Smart Home Control App UI/UX Design</p>
+            </div>
+          </div>
+          <div class="w-full flex justify-center md:mt-10 mt-5">
+            <button
+              class="text-center border border-[#FABA33] rounded-sm text-lg md:text-xl font-semibold md:px-4 md:py-3 px-3 py-2 hover:bg-[#FABA33]"
+            >
+              See More Work
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- We are on News Paper --------------- -->
+
+      <section class="mt-10 container mx-auto">
+        <div class="mt-5">
+          <h2 class="text-4xl font-semibold text-center">
+            We are on News Paper
+          </h2>
+
+          <div class="mt-10 flex flex-wrap justify-center gap-5">
+            <!-- image  1-->
+            <img src="./assets/image/d/image 10.png" alt="image" />
+            <!-- image  2-->
+            <img src="./assets/image/d/image 3 (1).png" alt="image" />
+            <!-- image  3-->
+            <img src="./assets/image/d/image 3.png" alt="image" />
+            <!-- image  4-->
+            <img src="./assets/image/d/image 4 (1).png" alt="image" />
+            <!-- image  5-->
+            <img src="./assets/image/d/image 4.png" alt="image" />
+            <!-- image  6-->
+            <img src="./assets/image/d/image 5 (1).png" alt="image" />
+            <!-- image  7-->
+            <img src="./assets/image/d/image 5.png" alt="image" />
+            <!-- image  8-->
+            <img src="./assets/image/d/image 6.png" alt="image" />
+            <!-- image  9-->
+            <img src="./assets/image/d/image 7 (1).png" alt="image" />
+            <!-- image  10-->
+            <img src="./assets/image/d/image 7.png" alt="image" />
+            <!-- image  11-->
+            <img src="./assets/image/d/image 8.png" alt="image" />
+            <!-- image  12-->
+            <img src="./assets/image/d/image 9 (1).png" alt="image" />
+            <!-- image  -->
+            <img src="./assets/image/d/image 9 (1).png" alt="image" />
+            <!-- image  13-->
+            <img src="./assets/image/d/image 9.png" alt="image" />
+          </div>
+        </div>
+      </section>
+
+      <!-- testmonial -------------------------------- -->
+
+      <section class="mt-5 md:mt-10 section bg-[#FFF9EB]" id="section--3">
+        <div class="section__title section__title--testimonials"></div>
+
+        <div class="slider container mx-auto">
+          <div class="slide slide--1">
+            <div class="testimonial flex flex-col gap-5">
+              <blockquote
+                class="testimonial__text w-[70%] mx-auto text-lg md:text-2xl"
+              >
+                "Notionhive was a great partner as we rebuilt our website. They
+                understood our vision, provided useful counsel, and executed our
+                needs quickly and professionally. We are thrilled with the
+                result and look forward to working with the team on future
+                projects."
+              </blockquote>
+              <address
+                class="testimonial__author w-[70%] mx-auto flex justify-center"
+              >
+                <img
+                  src="./assets/image/Ellipse 1.png"
+                  class="testimonial__photo"
+                />
+                <div class="flex flex-col justify-center ml-10">
+                  <h6 class="testimonial__name text-2xl">Ben Longmier</h6>
+                  <p class="testimonial__location">
+                    CTO and co-founder Sun Technologies
+                  </p>
+                </div>
+              </address>
+            </div>
+          </div>
+
+          <div class="slide slide--2">
+            <div class="testimonial flex flex-col gap-5">
+              <blockquote class="testimonial__text w-[70%] mx-auto text-2xl">
+                "Notionhive was a great partner as we rebuilt our website. They
+                understood our vision, provided useful counsel, and executed our
+                needs quickly and professionally. We are thrilled with the
+                result and look forward to working with the team on future
+                projects."
+              </blockquote>
+              <address
+                class="testimonial__author w-[70%] mx-auto flex justify-center"
+              >
+                <img
+                  src="./assets/image/Ellipse 1.png"
+                  class="testimonial__photo"
+                />
+                <div class="flex flex-col justify-center ml-10">
+                  <h6 class="testimonial__name text-2xl">Ben Longmier</h6>
+                  <p class="testimonial__location">
+                    CTO and co-founder Sun Technologies
+                  </p>
+                </div>
+              </address>
+            </div>
+          </div>
+
+          <div class="slide slide--1">
+            <div class="testimonial flex flex-col gap-5">
+              <blockquote class="testimonial__text w-[70%] mx-auto text-2xl">
+                "Notionhive was a great partner as we rebuilt our website. They
+                understood our vision, provided useful counsel, and executed our
+                needs quickly and professionally. We are thrilled with the
+                result and look forward to working with the team on future
+                projects."
+              </blockquote>
+              <address
+                class="testimonial__author w-[70%] mx-auto flex justify-center"
+              >
+                <img
+                  src="./assets/image/Ellipse 1.png"
+                  class="testimonial__photo"
+                />
+                <div class="flex flex-col justify-center ml-10">
+                  <h6 class="testimonial__name text-2xl">Ben Longmier</h6>
+                  <p class="testimonial__location">
+                    CTO and co-founder Sun Technologies
+                  </p>
+                </div>
+              </address>
+            </div>
+          </div>
+
+          <button class="slider__btn slider__btn--left">&larr;</button>
+          <button class="slider__btn slider__btn--right">&rarr;</button>
+          <div class="dots"></div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer ------------------- -->
+    <footer>
+      <div class="bg-[#1A1825]">
+        <div
+          class="w-full h-full container mx-auto mt-10 grid grid-cols-2 md:py-10 py-5 px-3"
+        >
+          <div class="left text-white col-span-1 flex flex-col gap-3">
+            <h3 class="text-2xl md:text-4xl font-semibold">Gcontent</h3>
+            <div class="w-[80%] md:w-full">
+              <img src="./assets/image/icon.png" alt="icon" />
+            </div>
+            <p class="md:text-lg text-sm w-[80%] md:w-full text-gray-400">
+              2023 Gcontent, All Rights Reserved.
+            </p>
+          </div>
+          <div
+            class="right text-white col-span-1 grid grid-cols-3 text-[0.6rem] md:text-lg"
+          >
+            <div class="col-span-1 flex flex-col gap-3">
+              <p>Content Writing</p>
+              <p>Digital Marketing</p>
+              <p>Video Editing</p>
+              <p>Green Screen</p>
+            </div>
+            <div class="col-span-1 flex flex-col gap-3">
+              <p>About us</p>
+              <p>Career</p>
+              <p>Privacy Policy</p>
+              <p>Privacy Policy</p>
+            </div>
+            <div class="col-span-1 flex flex-col gap-3">
+              <p>+8801551586960</p>
+              <p>hello@gcontent.com</p>
+              <p>63/F (4th Floor) , Lake Circus, Dhaka 1205</p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
