@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="./assets/script.js"></script>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <!-- Navber  -->
+    <header
+      class="h-20 top-0 left-0 right-0 bg-[#1E1D2D] backdrop-blur-lg z-[100]"
+    >
+      <div
+        class="container mx-auto w-full h-full flex justify-between items-center text-white"
+      >
+        <nav class="nav-left p-3 lg:p-0">
+          <img src="./assets/image/logo.png" alt="logo" />
+        </nav>
+        <nav class="nav-right hidden sm:block">
+          <ul class="flex gap-5">
+            <li>
+              <a href="/" class=""> Home </a>
+            </li>
+            <li>
+              <span href="/service" class=""> Service </span>
+            </li>
+            <li>
+              <a href="/career" class=""> Career </a>
+            </li>
+            <li>
+              <a href="/about" class=""> About Us </a>
+            </li>
+            <li><button>Contact Us</button></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- about hero section-------------------------- -->
+    <section class="about w-full h-full">
+      <div class="about-page w-full h-full">
+        <div class="w-full bg-[#1E1D2D] h-[50vh] relative">
+          <div
+            class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+          >
+            <h1 class="text-center text-white text-6xl font-semibold">
+              Contact Us
+            </h1>
+            <p class="text-white text-center mt-5 text-xl">
+              We'd love to hear your requirements and work seamlessly together
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-10 container mx-auto w-full h-full">
+      <div class="grid grid-cols-2 gap-5 w-[80%] mx-auto">
+        <div class="left flex justify-end rounded-lg">
+          <img src="./assets/image/h.png" alt="image" />
+        </div>
+        <div class="right flex flex-col justify-center gap-5">
+          <h3 class="text-4xl font-semibold">Schedule a Meeting</h3>
+          <h4 class="text-2xl font-semibold">Book a free call on Calendly</h4>
+          <p class="text-lg mt-3">
+            We serve describe clients ranging from small business to large
+            companies and we offer both short and long-term contracts. To know
+            more about what we can do for you, book a free consultation.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-10 container mx-auto h-[60vh]">
+      <div class="grid grid-cols-2 w-full h-[70%]">
+        <div class="grid-col-1 flex flex-col justify-between">
+          <h3 class="text-4xl">Let's talk</h3>
+          <p class="text-xl w-[70%]">
+            We'd love to hear your requirements and work seamlessly together
+          </p>
+          <div class="">
+            <p class="text-xl font-semibold">Email</p>
+            <span>hello@gcontent.com</span>
+          </div>
+          <div class="">
+            <p class="text-xl font-semibold">Visit Us Personaly</p>
+            <span>63/F (4th Floor), Lake Circus, Dhaka 1205.</span>
+          </div>
+        </div>
+        <div class="grid-col-1">
+          <div class="w-full h-full bg-[#FFF9EB] p-10">
+            <div class="flex flex-col justify-between h-full">
+              <div class="flex">
+                <div class="">
+                  <label for="name">Your Name *</label>
+                  <input
+                    type="text"
+                    class="bg-transparent border-b-2 border-black outline-none"
+                  />
+                </div>
+                <div class="">
+                  <label for="email">Email Address *</label>
+                  <input
+                    type="email"
+                    class="bg-transparent border-b-2 border-black outline-none"
+                  />
+                </div>
+              </div>
+              <div class="flex">
+                <div class="mt-5">
+                  <label for="phone">Phone</label>
+                  <input
+                    type="number"
+                    class="bg-transparent border-b-2 border-black outline-none"
+                  />
+                </div>
+                <div class="mt-5">
+                  <label for="company"> Company </label>
+                  <input
+                    type="text"
+                    class="bg-transparent border-b-2 border-black outline-none"
+                  />
+                </div>
+              </div>
+              <div class="flex flex-col mt-5">
+                <label for="message">Message</label>
+                <input
+                  type="message"
+                  class="bg-transparent border-b-2 border-black outline-none"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

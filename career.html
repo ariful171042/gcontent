@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="./assets/script.js"></script>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <!-- Navber  -->
+    <header
+      class="h-20 top-0 left-0 right-0 bg-[#1E1D2D] backdrop-blur-lg z-[100]"
+    >
+      <div
+        class="container mx-auto w-full h-full flex justify-between items-center text-white"
+      >
+        <nav class="nav-left p-3 lg:p-0">
+          <img src="./assets/image/logo.png" alt="logo" />
+        </nav>
+        <nav class="nav-right hidden sm:block">
+          <ul class="flex gap-5">
+            <li>
+              <a href="/" class=""> Home </a>
+            </li>
+            <li>
+              <span href="/service" class=""> Service </span>
+            </li>
+            <li>
+              <a href="/career" class=""> Career </a>
+            </li>
+            <li>
+              <a href="/about" class=""> About Us </a>
+            </li>
+            <li><button>Contact Us</button></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- about hero section-------------------------- -->
+    <section class="about w-full h-full">
+      <div class="about-page w-full h-full">
+        <div class="w-full bg-[#1E1D2D] h-[50vh] relative">
+          <div
+            class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+          >
+            <h1 class="text-center text-white text-6xl font-semibold">
+              Career
+            </h1>
+            <p class="text-white text-center mt-5 text-xl">
+              Become part of our close-knit creative family, where nurturing
+              members thrive together in a world of boundless creativity and
+              joy.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-10 container mx-auto">
+      <div class="w-full mx-auto flex justify-center">
+        <div class="flex justify-center gap-5">
+          <div
+            class="flex flex-col gap-2 items-start border rounded-xl p-5 w-72"
+          >
+            <div class="w-10">
+              <img src="./assets/image/🔍.png" alt="" />
+            </div>
+            <h3 class="text-2xl font-semibold">
+              Senior Executive, Human Resources
+            </h3>
+            <p>Full Time</p>
+            <p>Deadline : 20 August 2023</p>
+            <button class="bg-[#FFF8EB] p-3 rounded-xl text-lg font-semibold">
+              View Details
+            </button>
+          </div>
+          <div
+            class="flex flex-col gap-2 items-start border rounded-xl p-5 w-72"
+          >
+            <div class="w-10">
+              <img src="./assets/image/🔍.png" alt="" />
+            </div>
+            <h3 class="text-2xl font-semibold">Senior Content Writer</h3>
+            <p>Part Time</p>
+            <p>Deadline : 29 July 2023</p>
+            <button class="bg-[#FFF8EB] p-3 rounded-xl text-lg font-semibold">
+              View Details
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
