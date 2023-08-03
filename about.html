@@ -7,8 +7,12 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script defer src="./assets/script.js"></script>
     <link rel="stylesheet" href="./assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
   </head>
-  <body>
+  <body class="overflow-x-hidde">
     <!-- Navber  -->
     <header
       class="h-20 top-0 left-0 right-0 bg-[#1E1D2D] backdrop-blur-lg z-[100]"
@@ -44,7 +48,7 @@
       <div class="about-page w-full h-full">
         <div class="w-full bg-[#1E1D2D] h-[50vh] relative">
           <h1
-            class="text-center absulet text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-6xl font-semibold"
+            class="text-center absulet text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-4xl sm:text-6xl font-semibold"
           >
             About Us
           </h1>
@@ -52,10 +56,10 @@
       </div>
     </section>
 
-    <section class="mt-10 container mx-auto w-full h-full">
-      <div class="grid grid-cols-2 gap-5">
+    <section class="mt-5 sm:mt-10 container mx-auto w-full h-full p-3">
+      <div class="sm:grid flex flex-col grid-cols-2 gap-5">
         <div class="left flex flex-col justify-center">
-          <h3 class="text-4xl font-semibold">
+          <h3 class="sm:text-4xl text-2xl font-semibold">
             Product Development For Butter Business
           </h3>
           <p class="text-xl mt-3">
@@ -72,96 +76,97 @@
       </div>
     </section>
 
-    <section class="mt-10 container mx-auto">
-      <div class="flex gap-5 justify-between">
+    <section class="mt-5 sm:mt-10 w-[100vw] container mx-auto">
+      <div class="flex gap-3 sm:gap-5 justify-center p-3">
         <div class="">
-          <h5 class="text-6xl font-bold">15+</h5>
-          <p class="text-xl">Years experiences</p>
+          <h5 class="text-xl sm:text-6xl font-bold">15+</h5>
+          <p class="sm:text-xl text-[0.7rem]">Years <br />experiences</p>
         </div>
         <div class="">
-          <h5 class="text-6xl font-bold">243</h5>
-          <p class="text-xl">Finished Projects</p>
+          <h5 class="text-xl sm:text-6xl font-bold">243</h5>
+          <p class="sm:text-xl text-[0.7rem]">Finished Projects</p>
         </div>
         <div class="">
-          <h5 class="text-6xl font-bold">143+</h5>
-          <p class="text-xl">Recognition</p>
+          <h5 class="text-xl sm:text-6xl font-bold">143+</h5>
+          <p class="sm:text-xl text-[0.7rem]">Recognition</p>
         </div>
         <div class="">
-          <h5 class="text-6xl font-bold">2500</h5>
-          <p class="text-xl">Happy Client</p>
+          <h5 class="text-xl sm:text-6xl font-bold">2500</h5>
+          <p class="sm:text-xl text-[0.7rem]">Happy Client</p>
         </div>
       </div>
     </section>
 
-    <section class="mt-10 bg-[#FFF8EB] w-full h-[70vh]">
-      <div class="container mx-auto">
-        <div
-          class="section-title text-center flex flex-col justify-center p-10 w-full h-full"
-        >
-          <h2 class="text-4xl">How We Work</h2>
-          <p class="text-lg mt-3 w-[50%] mx-auto">
-            At Gcontent, we are passionate about creating captivating and
-            impactful content that helps businesses thrive in the digital world.
-            As a leading digital marketing agency.
-          </p>
-        </div>
-        <div class="w-full flex flex-wrap mx-auto justify-between">
-          <div class="w-72">
-            <div class="bg-white w-10 h-10 flex justify-center items-center">
-              <img src="./assets/image/Vector (2).png" alt="" />
-            </div>
-            <h3 class="text-xl font-bold mt-3">Understand your Brief</h3>
-            <p class="text-lg mt-2">
+    <section class="mt-10 bg-[#FFF8EB] w-full sm:p-0 h-full md:h-[90vh]">
+      <div class="">
+        <div class="container mx-auto">
+          <div
+            class="section-title text-center flex flex-col sm:p-10 w-full h-full"
+          >
+            <h2 class="text-4xl">How We Work</h2>
+            <p class="text-lg mt-3 w-full sm:w-[50%] mx-auto">
               At Gcontent, we are passionate about creating captivating and
               impactful content that helps businesses thrive in the digital
-              world.
+              world. As a leading digital marketing agency.
             </p>
           </div>
-          <div class="w-72">
-            <div class="bg-white w-10 h-10 flex justify-center items-center">
-              <img src="./assets/image/Group (2).png" alt="" />
+          <div class="w-full flex flex-col sm:grid grid-cols-4 gap-5">
+            <div class="col-span-1">
+              <div class="bg-white w-10 h-10 flex justify-center items-center">
+                <img src="./assets/image/Vector (2).png" alt="" />
+              </div>
+              <h3 class="text-xl font-bold mt-3">Understand your Brief</h3>
+              <p class="text-lg mt-2">
+                At Gcontent, we are passionate about creating captivating and
+                impactful content that helps businesses thrive in the digital
+                world.
+              </p>
             </div>
-            <h3 class="text-xl font-bold mt-3">Discuss with you</h3>
-            <p class="text-lg mt-2">
-              At Gcontent, we are passionate about creating captivating and
-              impactful content that helps businesses thrive in the digital
-              world.
-            </p>
-          </div>
-          <div class="w-72">
-            <div class="bg-white w-10 h-10 flex justify-center items-center">
-              <img src="./assets/image/Group (3).png" alt="" />
+            <div class="col-span-1">
+              <div class="bg-white w-10 h-10 flex justify-center items-center">
+                <img src="./assets/image/Group (2).png" alt="" />
+              </div>
+              <h3 class="text-xl font-bold mt-3">Discuss with you</h3>
+              <p class="text-lg mt-2">
+                At Gcontent, we are passionate about creating captivating and
+                impactful content that helps businesses thrive in the digital
+                world.
+              </p>
             </div>
-            <h3 class="text-xl font-bold mt-3">Development</h3>
-            <p class="text-lg mt-2">
-              At Gcontent, we are passionate about creating captivating and
-              impactful content that helps businesses thrive in the digital
-              world.
-            </p>
-          </div>
-          <div class="w-72">
-            <div class="bg-white w-10 h-10 flex justify-center items-center">
-              <img src="./assets/image/Vector (3).png" alt="" />
+            <div class="col-span-1">
+              <div class="bg-white w-10 h-10 flex justify-center items-center">
+                <img src="./assets/image/Group (3).png" alt="" />
+              </div>
+              <h3 class="text-xl font-bold mt-3">Development</h3>
+              <p class="text-lg mt-2">
+                At Gcontent, we are passionate about creating captivating and
+                impactful content that helps businesses thrive in the digital
+                world.
+              </p>
             </div>
-            <h3 class="text-xl font-bold mt-3">Delivery</h3>
-            <p class="text-lg mt-2">
-              At Gcontent, we are passionate about creating captivating and
-              impactful content that helps businesses thrive in the digital
-              world.
-            </p>
+            <div class="col-span-1">
+              <div class="bg-white w-10 h-10 flex justify-center items-center">
+                <img src="./assets/image/Vector (3).png" alt="" />
+              </div>
+              <h3 class="text-xl font-bold mt-3">Delivery</h3>
+              <p class="text-lg mt-2">
+                At Gcontent, we are passionate about creating captivating and
+                impactful content that helps businesses thrive in the digital
+                world.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="mt-5 md:mt-10 section bg-[#FFF9EB]" id="section--3">
-      <div class="section__title section__title--testimonials"></div>
-
-      <div class="slider container mx-auto">
-        <div class="slide slide--1">
-          <div class="testimonial flex flex-col gap-5">
+    <!-- testimonial section -------------------- -->
+    <section class="md:mt-10 section bg-[#FFF9EB] hidden" id="section--3">
+      <div class="slider container w-[80vw] h-[80vh] mx-auto relative">
+        <div class="slide slide--1 w-full h-[80vh] flex duration-300">
+          <div class="testimonial flex flex-col gap-0">
             <blockquote
-              class="testimonial__text w-[70%] mx-auto text-lg md:text-2xl"
+              class="testimonial__text w-full p-3 mx-auto text-xl md:text-2xl xl:text-3xl sm:w-[70%] sm:py-10"
             >
               "Notionhive was a great partner as we rebuilt our website. They
               understood our vision, provided useful counsel, and executed our
@@ -171,23 +176,35 @@
             <address
               class="testimonial__author w-[70%] mx-auto flex justify-center"
             >
-              <img
-                src="./assets/image/Ellipse 1.png"
-                class="testimonial__photo"
-              />
-              <div class="flex flex-col justify-center ml-10">
-                <h6 class="testimonial__name text-2xl">Ben Longmier</h6>
-                <p class="testimonial__location">
-                  CTO and co-founder Sun Technologies
-                </p>
+              <div
+                class="flex flex-col sm:flex-row gap-0 sm:gap-5 sm:justify-center items-center sm:items-center"
+              >
+                <img
+                  src="./assets/image/Ellipse 1.png"
+                  class="testimonial__photo w-[5rem] h-[5rem] rounded-full object-cover"
+                />
+                <div class="w-full flex flex-col justify center">
+                  <p
+                    class="testimonial__name sm:text-2xl text-xl text-center sm:text-start"
+                  >
+                    Ben Longmier
+                  </p>
+                  <p class="testimonial__location text-sm text-center">
+                    CTO and co-founder Sun Technologies
+                  </p>
+                </div>
               </div>
             </address>
           </div>
         </div>
 
-        <div class="slide slide--2">
-          <div class="testimonial flex flex-col gap-5">
-            <blockquote class="testimonial__text w-[70%] mx-auto text-2xl">
+        <div
+          class="slide slide--2 absolute top-0 w-full h-[80vh] flex duration-300"
+        >
+          <div class="testimonial flex flex-col gap-0">
+            <blockquote
+              class="testimonial__text w-full p-3 mx-auto text-xl md:text-2xl xl:text-3xl sm:w-[70%] sm:py-10"
+            >
               "Notionhive was a great partner as we rebuilt our website. They
               understood our vision, provided useful counsel, and executed our
               needs quickly and professionally. We are thrilled with the result
@@ -196,23 +213,35 @@
             <address
               class="testimonial__author w-[70%] mx-auto flex justify-center"
             >
-              <img
-                src="./assets/image/Ellipse 1.png"
-                class="testimonial__photo"
-              />
-              <div class="flex flex-col justify-center ml-10">
-                <h6 class="testimonial__name text-2xl">Ben Longmier</h6>
-                <p class="testimonial__location">
-                  CTO and co-founder Sun Technologies
-                </p>
+              <div
+                class="flex flex-col sm:flex-row gap-0 sm:gap-5 sm:justify-center items-center sm:items-center"
+              >
+                <img
+                  src="./assets/image/Ellipse 1.png"
+                  class="testimonial__photo w-[5rem] h-[5rem] rounded-full object-cover"
+                />
+                <div class="w-full flex flex-col justify center">
+                  <p
+                    class="testimonial__name sm:text-2xl text-xl text-center sm:text-start"
+                  >
+                    Ben Longmier
+                  </p>
+                  <p class="testimonial__location text-sm text-center">
+                    CTO and co-founder Sun Technologies
+                  </p>
+                </div>
               </div>
             </address>
           </div>
         </div>
 
-        <div class="slide slide--1">
-          <div class="testimonial flex flex-col gap-5">
-            <blockquote class="testimonial__text w-[70%] mx-auto text-2xl">
+        <div
+          class="slide slide--3 absolute top-0 w-full h-[80vh] flex sm:items-center justify-center duration-300"
+        >
+          <div class="testimonial flex flex-col gap-0">
+            <blockquote
+              class="testimonial__text w-full p-3 mx-auto text-xl md:text-2xl xl:text-3xl sm:w-[70%] sm:py-10"
+            >
               "Notionhive was a great partner as we rebuilt our website. They
               understood our vision, provided useful counsel, and executed our
               needs quickly and professionally. We are thrilled with the result
@@ -221,26 +250,43 @@
             <address
               class="testimonial__author w-[70%] mx-auto flex justify-center"
             >
-              <img
-                src="./assets/image/Ellipse 1.png"
-                class="testimonial__photo"
-              />
-              <div class="flex flex-col justify-center ml-10">
-                <h6 class="testimonial__name text-2xl">Ben Longmier</h6>
-                <p class="testimonial__location">
-                  CTO and co-founder Sun Technologies
-                </p>
+              <div
+                class="flex flex-col sm:flex-row gap-0 sm:gap-5 sm:justify-center items-center sm:items-center"
+              >
+                <img
+                  src="./assets/image/Ellipse 1.png"
+                  class="testimonial__photo w-[5rem] h-[5rem] rounded-full object-cover"
+                />
+                <div class="w-full flex flex-col justify center">
+                  <p
+                    class="testimonial__name sm:text-2xl text-xl text-center sm:text-start"
+                  >
+                    Ben Longmier
+                  </p>
+                  <p class="testimonial__location text-sm text-center">
+                    CTO and co-founder Sun Technologies
+                  </p>
+                </div>
               </div>
             </address>
           </div>
         </div>
 
-        <button class="slider__btn slider__btn--left">&larr;</button>
-        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <button
+          class="slider__btn slider__btn--left absolute top-[50%] z-[10] border-none bg-white text-[#333] roundel-full sm:h-[2.5rem] sm:w-[2.5rem] w-[2rem] h-[2rem] text-xl pointer left-10 -translate-x-1/2 -translate-y-1/2"
+        >
+          <i class="uil uil-angle-left-b"></i>
+        </button>
+        <button
+          class="slider__btn slider__btn--right absolute top-[50%] z-[10] border-none bg-white text-[#333] roundel-full sm:h-[2.5rem] sm:w-[2.5rem] w-[2rem] h-[2rem] text-xl pointer right-10 translate-x-1/2 -translate-y-1/2"
+        >
+          <i class="uil uil-angle-right-b"></i>
+        </button>
         <div class="dots"></div>
       </div>
     </section>
 
+    <!-- Gallery ------------------- -->
     <section class="mt-10 container mx-auto">
       <div class="text-center">
         <h2 class="text-4xl mt-5 mb-5 font-semibold">Our Founders</h2>
@@ -248,15 +294,15 @@
           <img
             src="./assets/image/f.png"
             alt="photo"
-            class="w-72 object-cover"
+            class="sm:w-72 w-36 object-cover"
           />
           <img
             src="./assets/image/f1.png"
             alt="photo"
-            class="w-72 object-cover"
+            class="sm:w-72 w-36 object-cover"
           />
         </div>
-        <div class="">
+        <div class="p-3 sm:p-0">
           <h2 class="text-4xl mt-5 mb-5">Meet Our Content Family</h2>
           <div class="grid grid-cols-3 gap-5">
             <div class="rounded-xl">

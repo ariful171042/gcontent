@@ -8,7 +8,7 @@
     <script defer src="./assets/script.js"></script>
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
-  <body>
+  <body class="overflow-x-hidden">
     <!-- Navber  -->
     <header
       class="h-20 top-0 left-0 right-0 bg-[#1E1D2D] backdrop-blur-lg z-[100]"
@@ -44,12 +44,14 @@
       <div class="about-page w-full h-full">
         <div class="w-full bg-[#1E1D2D] h-[50vh] relative">
           <div
-            class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+            class="absolute top-1/3 sm:top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
           >
-            <h1 class="text-center text-white text-6xl font-semibold">
+            <h1
+              class="text-center text-white text-4xl sm:text-6xl font-semibold"
+            >
               Career
             </h1>
-            <p class="text-white text-center mt-5 text-xl">
+            <p class="text-white text-center mt-5 sm:text-xl text-lg">
               Become part of our close-knit creative family, where nurturing
               members thrive together in a world of boundless creativity and
               joy.
@@ -61,7 +63,7 @@
 
     <section class="mt-10 container mx-auto">
       <div class="w-full mx-auto flex justify-center">
-        <div class="flex justify-center gap-5">
+        <div class="flex flex-col sm:flex-row justify-center gap-5">
           <div
             class="flex flex-col gap-2 items-start border rounded-xl p-5 w-72"
           >

@@ -75,3 +75,43 @@
   background-color: #faba33;
   opacity: 1;
 }
+
+@media screen and (max-width: 545px) {
+  .nav__item:nth-child(3) {
+    display: none;
+  }
+
+  .header__title h1 {
+    font-size: 4rem;
+  }
+
+  .section__header {
+    font-size: 3rem;
+  }
+
+  .cookie {
+    padding: 2rem;
+  }
+
+  .features {
+    margin: 0 1rem;
+  }
+
+  #section--2 {
+    display: none;
+  }
+
+  .slider {
+    height: 90rem;
+  }
+
+  .slide {
+    height: 90rem;
+  }
+
+  .modal {
+    max-width: 50rem;
+    background-color: #f3f3f3;
+    padding: 6rem 2rem;
+  }
+}

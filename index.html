@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="./assets/style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script defer src="./assets/script.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
   </head>
   <body class="overflow-x-hidden">
     <!-- Navber  -->
@@ -20,7 +24,7 @@
           <img src="./assets/image/logo.png" alt="logo" />
         </nav>
         <nav class="nav-right hidden sm:block">
-          <ul class="flex gap-5">
+          <ul class="flex gap-5 navLinks">
             <li>
               <a href="/" class=""> Home </a>
             </li>
@@ -324,14 +328,12 @@
 
       <!-- testmonial -------------------------------- -->
 
-      <section class="mt-5 md:mt-10 section bg-[#FFF9EB]" id="section--3">
-        <div class="section__title section__title--testimonials"></div>
-
-        <div class="slider container mx-auto">
-          <div class="slide slide--1">
-            <div class="testimonial flex flex-col gap-5">
+      <section class="md:mt-10 section bg-[#FFF9EB]" id="section--3">
+        <div class="slider container w-[80vw] h-[80vh] mx-auto relative">
+          <div class="slide slide--1 w-full h-[80vh] flex duration-300">
+            <div class="testimonial flex flex-col gap-0">
               <blockquote
-                class="testimonial__text w-[70%] mx-auto text-lg md:text-2xl"
+                class="testimonial__text w-full p-3 mx-auto text-xl md:text-2xl xl:text-3xl sm:w-[70%] sm:py-10"
               >
                 "Notionhive was a great partner as we rebuilt our website. They
                 understood our vision, provided useful counsel, and executed our
@@ -342,23 +344,35 @@
               <address
                 class="testimonial__author w-[70%] mx-auto flex justify-center"
               >
-                <img
-                  src="./assets/image/Ellipse 1.png"
-                  class="testimonial__photo"
-                />
-                <div class="flex flex-col justify-center ml-10">
-                  <h6 class="testimonial__name text-2xl">Ben Longmier</h6>
-                  <p class="testimonial__location">
-                    CTO and co-founder Sun Technologies
-                  </p>
+                <div
+                  class="flex flex-col sm:flex-row gap-0 sm:gap-5 sm:justify-center items-center sm:items-center"
+                >
+                  <img
+                    src="./assets/image/Ellipse 1.png"
+                    class="testimonial__photo w-[5rem] h-[5rem] rounded-full object-cover"
+                  />
+                  <div class="w-full flex flex-col justify center">
+                    <p
+                      class="testimonial__name sm:text-2xl text-xl text-center sm:text-start"
+                    >
+                      Ben Longmier
+                    </p>
+                    <p class="testimonial__location text-sm text-center">
+                      CTO and co-founder Sun Technologies
+                    </p>
+                  </div>
                 </div>
               </address>
             </div>
           </div>
 
-          <div class="slide slide--2">
-            <div class="testimonial flex flex-col gap-5">
-              <blockquote class="testimonial__text w-[70%] mx-auto text-2xl">
+          <div
+            class="slide slide--2 absolute top-0 w-full h-[80vh] flex duration-300"
+          >
+            <div class="testimonial flex flex-col gap-0">
+              <blockquote
+                class="testimonial__text w-full p-3 mx-auto text-xl md:text-2xl xl:text-3xl sm:w-[70%] sm:py-10"
+              >
                 "Notionhive was a great partner as we rebuilt our website. They
                 understood our vision, provided useful counsel, and executed our
                 needs quickly and professionally. We are thrilled with the
@@ -368,23 +382,35 @@
               <address
                 class="testimonial__author w-[70%] mx-auto flex justify-center"
               >
-                <img
-                  src="./assets/image/Ellipse 1.png"
-                  class="testimonial__photo"
-                />
-                <div class="flex flex-col justify-center ml-10">
-                  <h6 class="testimonial__name text-2xl">Ben Longmier</h6>
-                  <p class="testimonial__location">
-                    CTO and co-founder Sun Technologies
-                  </p>
+                <div
+                  class="flex flex-col sm:flex-row gap-0 sm:gap-5 sm:justify-center items-center sm:items-center"
+                >
+                  <img
+                    src="./assets/image/Ellipse 1.png"
+                    class="testimonial__photo w-[5rem] h-[5rem] rounded-full object-cover"
+                  />
+                  <div class="w-full flex flex-col justify center">
+                    <p
+                      class="testimonial__name sm:text-2xl text-xl text-center sm:text-start"
+                    >
+                      Ben Longmier
+                    </p>
+                    <p class="testimonial__location text-sm text-center">
+                      CTO and co-founder Sun Technologies
+                    </p>
+                  </div>
                 </div>
               </address>
             </div>
           </div>
 
-          <div class="slide slide--1">
-            <div class="testimonial flex flex-col gap-5">
-              <blockquote class="testimonial__text w-[70%] mx-auto text-2xl">
+          <div
+            class="slide slide--3 absolute top-0 w-full h-[80vh] flex duration-300"
+          >
+            <div class="testimonial flex flex-col gap-0">
+              <blockquote
+                class="testimonial__text w-full p-3 mx-auto text-xl md:text-2xl xl:text-3xl sm:w-[70%] sm:py-10"
+              >
                 "Notionhive was a great partner as we rebuilt our website. They
                 understood our vision, provided useful counsel, and executed our
                 needs quickly and professionally. We are thrilled with the
@@ -394,22 +420,38 @@
               <address
                 class="testimonial__author w-[70%] mx-auto flex justify-center"
               >
-                <img
-                  src="./assets/image/Ellipse 1.png"
-                  class="testimonial__photo"
-                />
-                <div class="flex flex-col justify-center ml-10">
-                  <h6 class="testimonial__name text-2xl">Ben Longmier</h6>
-                  <p class="testimonial__location">
-                    CTO and co-founder Sun Technologies
-                  </p>
+                <div
+                  class="flex flex-col sm:flex-row gap-0 sm:gap-5 sm:justify-center items-center sm:items-center"
+                >
+                  <img
+                    src="./assets/image/Ellipse 1.png"
+                    class="testimonial__photo w-[5rem] h-[5rem] rounded-full object-cover"
+                  />
+                  <div class="w-full flex flex-col justify center">
+                    <p
+                      class="testimonial__name sm:text-2xl text-xl text-center sm:text-start"
+                    >
+                      Ben Longmier
+                    </p>
+                    <p class="testimonial__location text-sm text-center">
+                      CTO and co-founder Sun Technologies
+                    </p>
+                  </div>
                 </div>
               </address>
             </div>
           </div>
 
-          <button class="slider__btn slider__btn--left">&larr;</button>
-          <button class="slider__btn slider__btn--right">&rarr;</button>
+          <button
+            class="slider__btn slider__btn--left absolute top-[50%] z-[10] border-none bg-white text-[#333] roundel-full sm:h-[2.5rem] sm:w-[2.5rem] w-[2rem] h-[2rem] text-xl pointer left-10 -translate-x-1/2 -translate-y-1/2"
+          >
+            <i class="uil uil-angle-left-b"></i>
+          </button>
+          <button
+            class="slider__btn slider__btn--right absolute top-[50%] z-[10] border-none bg-white text-[#333] roundel-full sm:h-[2.5rem] sm:w-[2.5rem] w-[2rem] h-[2rem] text-xl pointer right-10 translate-x-1/2 -translate-y-1/2"
+          >
+            <i class="uil uil-angle-right-b"></i>
+          </button>
           <div class="dots"></div>
         </div>
       </section>
