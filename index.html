@@ -49,16 +49,18 @@
             class="left w-full h-full col-span-1 flex flex-col gap-5 sm:justify-center items-center md:items-start"
           >
             <h1
-              class="text-white text-4xl lg:text-6xl text-center md:text-start"
+              class="text-white text-2xl lg:text-6xl text-center md:text-start"
             >
               Stay ahead with creative, strateg solutions, leadin the curve.
             </h1>
-            <p class="text-white/80 text-xl text-center md:text-start">
+            <p
+              class="text-white/80 text-lg sm:text-xl text-center md:text-start"
+            >
               we're a global, full-service creative agency collaborating with
               brands worldwide.
             </p>
             <button
-              class="bg-[#FFAD01] rounded-lg text-center w-52 p-3 text-xl"
+              class="bg-[#FFAD01] rounded-lg text-center w- sm:w-52 p-3 text-lg sm:text-xl"
             >
               Schedule A Meeting
             </button>
@@ -354,21 +356,23 @@
     <footer>
       <div class="bg-[#1A1825]">
         <div
-          class="w-full h-full container mx-auto mt-10 grid grid-cols-2 md:py-10 py-5 px-3"
+          class="w-full h-full container mx-auto mt-10 sm:grid grid-cols-2 md:py-10 py-5 px-3 flex flex-col"
         >
           <div class="left text-white col-span-1 flex flex-col gap-3">
             <h3 class="text-2xl md:text-4xl font-semibold">Gcontent</h3>
             <div class="w-[80%] md:w-full">
               <img src="./assets/image/icon.png" alt="icon" />
             </div>
-            <p class="md:text-lg text-sm w-[80%] md:w-full text-gray-400">
+            <p
+              class="md:text-lg text-sm w-[80%] md:w-full text-gray-400 hidden sm:block"
+            >
               2023 Gcontent, All Rights Reserved.
             </p>
           </div>
           <div
-            class="right text-white col-span-1 grid grid-cols-3 text-[0.6rem] md:text-lg"
+            class="right mt-5 sm:mt-0 text-white col-span-1 sm:grid grid-cols-3 text-[0.6rem] md:text-lg flex flex-col gap-5"
           >
-            <div class="col-span-1 flex flex-col gap-3">
+            <div class="sm:mt-0 col-span-1 flex flex-col gap-3">
               <p>Content Writing</p>
               <p>Digital Marketing</p>
               <p>Video Editing</p>
@@ -381,13 +385,19 @@
               <p>Privacy Policy</p>
             </div>
             <div class="col-span-1 flex flex-col gap-3">
-              <p>+8801551586960</p>
+              <p class="">+8801551586960</p>
               <p>hello@gcontent.com</p>
               <p>63/F (4th Floor) , Lake Circus, Dhaka 1205</p>
               <p></p>
             </div>
           </div>
         </div>
+        <hr />
+        <p
+          class="text-sm w-full text-center pt-2 pb-5 md:w-full text-gray-400 sm:hidden"
+        >
+          2023 Gcontent, All Rights Reserved.
+        </p>
       </div>
     </footer>
   </body>
