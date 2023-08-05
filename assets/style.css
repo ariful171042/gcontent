@@ -106,9 +106,8 @@
   }
 } */
 
-.hborder,
-div:before,
-div:after {
+.hborder:before,
+.hborder:after {
   content: "";
   position: absolute;
   height: 30%;
