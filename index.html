@@ -24,14 +24,20 @@
           <img src="./assets/image/logo.png" alt="logo" />
         </nav>
         <nav class="nav-right hidden sm:block">
-          <ul class="flex items-center gap-5 navLinks text-xl">
+          <ul class="flex items-center gap-8 navLinks text-xl">
             <li class="hover:text-[#FABA33]">
               <a href="/" class=""> Home </a>
             </li>
-            <li class="hover:text-[#FABA33]">
-              <span href="/service" class=""> Service </span>
-              <a href="/" class="">UI/UX Design</a>
+
+            <li class="dropdown">
+              <button class="dropbtn text-xl">Services</button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
             </li>
+
             <li class="hover:text-[#FABA33]">
               <a href="/career" class=""> Career </a>
             </li>
@@ -71,7 +77,7 @@
               brands worldwide.
             </p>
             <button
-              class="bg-[#FABA33] rounded-lg text-center sm:w-52 p-3 text-md sm:text-xl hover:bg-[#FFAD01]"
+              class="bg-[#FABA33] rounded-lg text-center sm:w-52 p-3 text-md sm:text-xl hover:bg-[#FFAD01] hover:shadow-lg"
             >
               Schedule A Meeting
             </button>
@@ -90,7 +96,7 @@
 
       <!-- section gap  -->
       <div
-        class="w-full h-32 md:h-62 bg-[#FFF9EB] flex justify-center items-center"
+        class="w-full h-32 md:h-[7.5rem] bg-[#FFF9EB] flex justify-center items-center"
       >
         <p
           class="text-md md:text-1xl lg:text-2xl xl:text-2xl p-2 font-semibold text-center w-[50%]"
@@ -101,14 +107,14 @@
       </div>
 
       <!-- Servicess ---------------------------------------- -->
-      <section class="mt-5 md:mt-10 container mx-auto">
-        <div class="section title">
+      <section class="mt-5 md:mt-[6.25rem] container mx-auto">
+        <div class="section-title">
           <h2 class="text-center text-4xl font-semibold">Our Services</h2>
         </div>
 
         <div class="w-[80%] mx-auto">
           <div
-            class="mt-5 md:mt-10 w-full h-full container mx-auto flex flex-col sm:grid sm:grid-cols-5 gap-5 p-3 lg:p-0"
+            class="mt-5 md:mt-[5rem] w-full h-full container mx-auto flex flex-col sm:grid sm:grid-cols-5 gap-5 p-3 lg:p-0"
           >
             <div
               class="col-span-2 h-[14rem] sm:h-[32rem] md:h-[36rem] hover:border-4 border-[#7489F7] shadow-xl p-5 md:p-10 rounded-xl cursor-pointer outer"
@@ -198,7 +204,7 @@
       </section>
 
       <!-- Some of our hand-picked work--------------------------------- -->
-      <section class="mt-5 md:mt-10 container mx-auto p-3 lg:p-0">
+      <section class="mt-5 md:mt-[6.25rem] container mx-auto p-3 lg:p-0">
         <div class="">
           <h2
             class="text-center mt-0 md:mt-5 text-2xl sm:text-4xl font-semibold"
@@ -206,7 +212,7 @@
             Some of our hand-picked work
           </h2>
           <div
-            class="mt-10 w-full h-full flex flex-col sm:grid sm:grid-cols-3 gap-5 sm:gap-10"
+            class="mt-[3.125rem] w-full h-full flex flex-col sm:grid sm:grid-cols-3 gap-5 sm:gap-10"
           >
             <!-- cart 1------------- -->
             <div
@@ -221,7 +227,7 @@
                   />
                 </div>
               </div>
-              <p class="p-5 text-xl">
+              <p class="p-5 font-medium text-2xl">
                 When Jana Ojana Media and Gcontent collaborated
               </p>
             </div>
@@ -238,7 +244,9 @@
                   />
                 </div>
               </div>
-              <p class="p-5 text-xl">Video Editing for Bangla Star Media</p>
+              <p class="p-5 text-2xl font-medium">
+                Video Editing for Bangla Star Media
+              </p>
             </div>
             <!-- cart 3------------- -->
             <div
@@ -253,7 +261,9 @@
                   />
                 </div>
               </div>
-              <p class="p-5 text-xl">Smart Home Control App UI/UX Design</p>
+              <p class="p-5 text-2xl font-medium">
+                Smart Home Control App UI/UX Design
+              </p>
             </div>
           </div>
           <div class="w-full flex justify-center md:mt-10 mt-5">
@@ -268,7 +278,7 @@
 
       <!-- We are on News Paper --------------- -->
 
-      <section class="mt-5 sm:mt-10 container mx-auto">
+      <section class="mt-5 sm:mt-[6.5rem] container mx-auto">
         <div class="sm:mt-5">
           <h2 class="text-2xl sm:text-4xl font-semibold text-center">
             We are on News Paper
@@ -378,7 +388,7 @@
           <div class="slide slide--1 w-full h-[80vh] flex duration-300">
             <div class="testimonial flex flex-col gap-0">
               <blockquote
-                class="testimonial__text w-full p-3 mx-auto text-xl md:text-2xl xl:text-3xl sm:w-[70%] sm:py-10"
+                class="testimonial__text w-full p-3 mx-auto text-xl md:text-2xl sm:w-[70%] sm:py-10 text-center"
               >
                 "Notionhive was a great partner as we rebuilt our website. They
                 understood our vision, provided useful counsel, and executed our
@@ -419,7 +429,7 @@
           >
             <div class="testimonial flex flex-col gap-0">
               <blockquote
-                class="testimonial__text w-full p-3 mx-auto text-xl md:text-2xl xl:text-3xl sm:w-[70%] sm:py-10"
+                class="testimonial__text w-full p-3 mx-auto text-xl md:text-2xl sm:w-[70%] sm:py-10 text-center"
               >
                 "Notionhive was a great partner as we rebuilt our website. They
                 understood our vision, provided useful counsel, and executed our
@@ -458,7 +468,7 @@
           >
             <div class="testimonial flex flex-col gap-0">
               <blockquote
-                class="testimonial__text w-full p-3 mx-auto text-xl md:text-2xl xl:text-3xl sm:w-[70%] sm:py-10"
+                class="testimonial__text w-full p-3 mx-auto text-xl md:text-2xl sm:w-[70%] sm:py-10 text-center"
               >
                 "Notionhive was a great partner as we rebuilt our website. They
                 understood our vision, provided useful counsel, and executed our
@@ -502,7 +512,7 @@
           >
             <i class="uil uil-angle-right-b"></i>
           </button>
-          <div class="dots"></div>
+          <div class="dots md:mb-14"></div>
         </div>
       </section>
     </main>
