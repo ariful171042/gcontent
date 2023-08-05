@@ -99,3 +99,10 @@ navLinks.addEventListener("click", function () {
     navLinks.classList.remove("nav__open");
   document.querySelector("html").style.overflow = "visible";
 });
+
+const btn = document.querySelector("button.mobile-menu-button");
+const menu = document.querySelector(".mobile-menu");
+
+btn.addEventListener("click", () => {
+  menu.classList.toggle("hidden");
+});
