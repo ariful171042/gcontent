@@ -118,9 +118,9 @@ button {
   padding: 38px 30px !important;
 }
 
-.outer:hover {
+/* .outer:hover {
   padding: 34.7px 27px !important;
-}
+} */
 .outer:before {
   top: 0;
   left: 0;
@@ -286,4 +286,49 @@ button {
 .outer-b-r:hover::after {
   display: none;
   visibility: hidden;
+}
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: #555;
+  height: 500px;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #04aa6d;
+  color: white;
 }
