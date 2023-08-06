@@ -15,7 +15,7 @@
   <body class="overflow-x-hidde">
     <!-- Navber  -->
     <header
-      class="h-20 top-0 left-0 right-0 bg-[#1E1D2D] backdrop-blur-lg z-[100]"
+      class="h-20 top-0 left-0 right-0 bg-[#1E1D2D] backdrop-blur-lg z-[1000]"
     >
       <div
         class="container mx-auto w-full h-full flex justify-between items-center text-white"
@@ -24,20 +24,38 @@
           <img src="./assets/image/logo.png" alt="logo" />
         </nav>
         <nav class="nav-right hidden sm:block">
-          <ul class="flex gap-5">
-            <li>
+          <ul class="flex items-center gap-8 navLinks text-lg">
+            <li class="hover:text-[#FABA33]">
               <a href="/" class=""> Home </a>
             </li>
-            <li>
-              <span href="/service" class=""> Service </span>
+
+            <li class="dropdown">
+              <button class="dropbtn text-lg hover:text-[#FABA33]">
+                <span>Services</span> <i class="uil uil-angle-down"></i>
+              </button>
+              <div class="dropdown-content w-[20rem] rounded-lg py-5 z-[100]">
+                <a href="#" class="">UI/UX Design</a>
+                <a href="#">Content Writing</a>
+                <a href="#">Video Editing</a>
+                <a href="#">Digital Marketing</a>
+                <a href="#">Green Screen</a>
+              </div>
             </li>
-            <li>
-              <a href="/career" class=""> Career </a>
+
+            <li class="hover:text-[#FABA33]">
+              <a href="./career.html" class=""> Career </a>
             </li>
-            <li>
-              <a href="/about" class=""> About Us </a>
+            <li class="hover:text-[#FABA33]">
+              <a href="./about.html" class=""> About Us </a>
             </li>
-            <li><button>Contact Us</button></li>
+            <li class="hover:text-[#FABA33]">
+              <button
+                href="./content.html"
+                class="border border-[#FABA33] text-[#FABA33] font-semibold py-2 px-4 rounded-lg hover:bg-[#FABA33] hover:text-black"
+              >
+                Contact Us
+              </button>
+            </li>
           </ul>
         </nav>
       </div>
