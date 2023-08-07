@@ -18,13 +18,13 @@
       class="h-20 top-0 left-0 right-0 bg-[#1E1D2D] backdrop-blur-lg border-b sm:border-none z-[1000] md:px-10"
     >
       <div
-        class="container mx-auto w-full h-full flex justify-between items-center text-white"
+        class="container sm:px-10 md:px-6 lg:px-10 xl:px-20 mx-auto w-full h-full flex justify-between items-center text-white"
       >
-        <nav class="nav-left p-3 lg:p-0">
+        <nav class="nav-left p-3 sm:p-0 lg:p-0">
           <img src="./assets/image/logo.png" alt="logo" />
         </nav>
         <nav class="nav-right hidden sm:block">
-          <ul class="flex items-center gap-8 navLinks text-lg">
+          <ul class="flex items-center sm:gap-3 lg:gap-8 navLinks text-lg">
             <li class="hover:text-[#FABA33]">
               <a href="/" class=""> Home </a>
             </li>
@@ -34,7 +34,7 @@
                 <span>Services</span> <i class="uil uil-angle-down"></i>
               </button>
               <div class="dropdown-content w-[20rem] rounded-lg py-5 z-[99]">
-                <a href="#" class="">UI/UX Design</a>
+                <a href="./uiux.html" class="">UI/UX Design</a>
                 <a href="#">Content Writing</a>
                 <a href="#">Video Editing</a>
                 <a href="#">Digital Marketing</a>
@@ -51,7 +51,7 @@
             <li class="hover:text-[#FABA33]">
               <button
                 href="./content.html"
-                class="border border-[#FABA33] text-[#FABA33] font-semibold py-2 px-4 rounded-lg hover:bg-[#FABA33] hover:text-black"
+                class="border border-[#FABA33] text-[#FABA33] font-semibold py-1 px-2 lg:py-2 lg:px-4 rounded-lg hover:bg-[#FABA33] hover:text-black"
               >
                 Contact Us
               </button>
@@ -64,19 +64,21 @@
     <main class="w-full h-full">
       <!-- hero section  -------------------------------------------------------------->
       <div
-        class="w-full h-[25rem] sm:px-10 sm:h-[20rem] md:h-[25rem] lg:h-[35rem] bg-[#1E1D2D] z-[-1] sm:relative md:px-10"
+        class="w-full h-[25rem] sm:px-10 sm:h-[20rem] md:h-[25rem] lg:h-[35rem] xl:px-20 bg-[#1E1D2D] z-[-1] sm:relative md:px-10"
       >
-        <div class="w-full h-full sm:grid grid-cols-2 gap-5 container mx-auto">
+        <div
+          class="w-full h-full sm:grid grid-cols-2 gap-5 container md:px-6 lg:px-10 mx-auto"
+        >
           <div
-            class="left pt-10 sm:pt-0 w-full h-full col-span-1 flex flex-col gap-5 sm:p-0 md:mt-10 lg:mt-0 lg:justify-center lg:gap-8 items-center md:items-start"
+            class="left pt-10 sm:pt-0 w-full h-full col-span-1 flex flex-col gap-5 sm:p-0 md:mt-10 lg:mt-0 lg:justify-center lg:gap-8 items-center sm:items-start md:items-start"
           >
             <h1
-              class="text-white text-2xl md:text-3xl lg:text-5xl text-center md:text-start"
+              class="text-white text-2xl md:text-3xl lg:text-5xl text-center sm:text-start md:text-start"
             >
               Stay ahead with creative, strateg solutions, leadin the curve.
             </h1>
             <p
-              class="text-white/80 text-lg md:text-lg lg:text-xl text-center md:text-start"
+              class="text-white/80 text-lg md:text-lg lg:text-xl text-center sm:text-start md:text-start"
             >
               we're a global, full-service creative agency collaborating with
               brands worldwide.
@@ -103,7 +105,9 @@
             </div>
           </div>
         </div>
-        <div class="absolute top-[22%] right-5 w-[50%] hidden sm:block">
+        <div
+          class="absolute top-[22%] sm:top-[35%] md:top-[30%] lg:top-[30%] xl:top-[25%] sm:right-4 xl:right-7 right-5 w-[50%] md:w-[55%] lg:w-[55%] hidden sm:block"
+        >
           <img
             src="./assets/image/WhatsApp_Image_2023-08-06_at_11.43.55_AM-removebg-preview.png"
             alt="image"
@@ -134,7 +138,7 @@
 
         <div class="w-[80%] md:w-[100%] xl:w-[75%] mx-auto">
           <div
-            class="mt-5 md:mt-[5rem] w-full h-full container mx-auto flex flex-col sm:grid sm:grid-cols-5 gap-5 xl:gap-16 p-3 lg:p-0"
+            class="mt-5 md:mt-[5rem] w-full h-full container mx-auto flex flex-col md:grid sm:grid-cols-5 gap-5 xl:gap-16 p-3 lg:p-0"
           >
             <div
               class="col-span-2 h-[20rem] sm:h-[32rem] md:h-[42rem] border-4 border-white hover:border-[#7489F7] shadow-lg md:shadow-xl p-5 md:p-10 rounded-xl cursor-pointer outer hborder duration-500"
@@ -405,8 +409,11 @@
         class="md:mt-10 section bg-[#FFF9EB] w-full"
         id="section--3 overflow-hidden"
       >
+        <div class="w-full flex justify-center sm:pt-20 pt-20">
+          <img src="./assets/image/”.png" alt="imag" class="w-10 md:w-16" />
+        </div>
         <div
-          class="slider container w-full md:w-[100vw] h-[35rem] sm:h-[30rem] md:h-[35rem] mx-auto relative overflow-hidden"
+          class="slider container w-full md:w-[100vw] h-[35rem] sm:h-[30rem] md:h-[35rem] xl:h-[35rem] mx-auto relative overflow-hidden"
         >
           <div
             class="slide slide--1 w-full sm:h-[80vh] flex duration-300 pt-5 justify-center xl:justify-center"
