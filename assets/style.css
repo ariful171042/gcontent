@@ -1,11 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 
-body {
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body .section-title {
   font-family: "Manrope", sans-serif;
 }
 
+body {
+  font-family: "Inter", sans-serif;
+}
+
 .wrapper {
-  width: 80%;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -298,7 +304,7 @@ button {
     padding-right: 0;
   }
   .section-des {
-    width: 40%;
+    width: 80%;
   }
   .light {
     width: 45%;
@@ -325,7 +331,7 @@ button {
     bottom: 110px;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .wrapper {
     width: 90%;
   }

@@ -15,7 +15,7 @@
   <body class="overflow-x-hidden">
     <!-- Navber  -->
     <header
-      class="h-20 top-0 left-0 right-0 bg-[#1E1D2D] backdrop-blur-lg border-b sm:border-none z-[1000] md:px-10"
+      class="h-20 top-0 left-0 right-0 bg-[#1A1929] backdrop-blur-lg border-b sm:border-none z-[1000] md:px-10"
     >
       <div class="wrapper h-full flex justify-between items-center text-white">
         <nav class="nav-left p-3 sm:p-0 lg:p-0">
@@ -61,63 +61,75 @@
 
     <main class="w-full h-full">
       <!-- hero section  -------------------------------------------------------------->
-      <div
-        class="h-[25rem] sm:h-[20rem] md:h-[25rem] lg:h-[35rem] bg-[#1E1D2D] z-[-1] sm:relative md:px-10"
-      >
-        <div class="wrapper h-full sm:grid grid-cols-2 gap-5">
+      <div class="">
+        <div class="relative w-full h-[25rem] md:h-[90%] bg-gray-900">
+          <img
+            src="./assets/image/b-01-01.jpg"
+            alt=""
+            class="w-full hidden md:block"
+          />
+        </div>
+        <div
+          class="wrapper absolute top-[12%] sm:top-[10%] md:top-[12%] lg:top-[15%] xl:top-[16%] 2xl:top-[20%] sm:left-[2rem] left-[1rem] md:left-[4rem] lg:left-[6rem] xl:left-[8rem] 2xl:left-[10rem] md:pr-[4rem] lg:pr-[3rem] xl:pr-14 2xl:pr-10 sm:grid grid-cols-2 gap-5"
+        >
           <div
-            class="left pt-10 sm:pt-0 w-full h-full col-span-1 flex flex-col gap-5 sm:p-0 md:mt-10 lg:mt-0 lg:justify-center lg:gap-8 items-center sm:items-start md:items-start"
+            class="left w-full col-span-1 flex flex-col gap-5 sm:gap-9 md:gap-3 lg:gap-5 xl:gap-12 2xl:gap-16 sm:items-start md:items-start"
           >
             <h1
-              class="text-white text-2xl md:text-3xl lg:text-5xl text-center sm:text-start md:text-start font-medium tracking-wide"
+              class="section-title 2xl:w-[100%] text-white text-2xl md:text-2xl lg:text-4xl 2xl:text-6xl text-center sm:text-start md:text-start font-semibold tracking-widest flex flex-col lg:-gap-2 xl:gap-5"
             >
-              Stay ahead with creative, strateg solutions, leadin the curve.
+              <span>Stay ahead with</span>
+              <span>creative, strateg</span> <span>solutions, leadin the</span>
+              <span>curve.</span>
             </h1>
             <p
-              class="text-white/80 text-lg md:text-lg lg:text-xl text-center sm:text-start md:text-start"
+              class="text-white/80 text-sm md:text-sm lg:text-md xl:text-2xl text-center sm:text-start md:text-start flex flex-col gap-2 xl:gap-3"
             >
-              we're a global, full-service creative agency collaborating with
-              brands worldwide.
+              <span>we're a global, full-service creative agency </span>
+              <span>collaborating with brands worldwide.</span>
             </p>
             <button
-              class="bg-[#FABA33] rounded-lg text-center sm:w-52 p-3 text-md sm:text-lg font-semibold hover:bg-[#FFAD01] hover:shadow-lg"
+              class="bg-[#FABA33] rounded-lg text-center sm:w-52 xl:w-72 2xl:w-72 xl:p-5 2xl:p-5 p-3 text-md sm:text-lg xl:text-2xl font-semibold hover:bg-[#FFAD01] hover:shadow-lg"
             >
               Schedule A Meeting
             </button>
           </div>
-          <div class="right hidden sm:block cols-span-1 flex flex-col gap-5 z-">
-            <div class="w-full h-full flex flex-col gap-5 justify-center">
+          <div class="right hidden md:block cols-span-1 flex flex-col gap-5 z-">
+            <div class="w-full h-full flex flex-col gap-5">
               <div class="top flex gap-5 justify-end w-full">
-                <div class="col-1">
-                  <img src="./assets/image/hero1.png" alt="image" />
+                <div class="col-1 w-[50%] 2xl:h-[90%]">
+                  <img
+                    src="./assets/image/hero1.png"
+                    alt="image"
+                    class="w-full h-full"
+                  />
                 </div>
-                <div class="col-1">
-                  <img src="./assets/image/hero-3.png" alt="image" />
+                <div class="col-1 w-[50%] 2xl:h-[90%]">
+                  <img
+                    src="./assets/image/hero-3.png"
+                    alt="image"
+                    class="w-full h-full"
+                  />
                 </div>
               </div>
-              <div class="down flex justify-end w-full z-[1]">
-                <img src="./assets/image/hero2.png" alt="image" class="" />
+              <div class="down w-[30%rem] xl:h-[90%] flex justify-end z-[1]">
+                <img
+                  src="./assets/image/hero2.png"
+                  alt="image"
+                  class="w-full h-full"
+                />
               </div>
             </div>
           </div>
-        </div>
-        <div
-          class="light absolute top-[22%] sm:top-[35%] md:top-[30%] lg:top-[30%] xl:top-[25%] 2xl:top-[20%] sm:right-4 xl:right-7 2xl:right-[-4rem] right-5 w-[50%] md:w-[55%] lg:w-[55%] hidden sm:block"
-        >
-          <img
-            src="./assets/image/WhatsApp_Image_2023-08-06_at_11.43.55_AM-removebg-preview.png"
-            alt="image"
-            class="w-full 2xl:w-[90%]"
-          />
         </div>
       </div>
 
       <!-- section gap  -->
       <div
-        class="w-full h-32 md:h-[7.5rem] lg:h-[8rem] bg-[#FFF9EB] flex justify-center items-center"
+        class="w-full h-32 md:h-[7.5rem] lg:h-[8rem] 2xl:h-[12rem] bg-[#FFF9EB] flex justify-center items-center"
       >
         <p
-          class="section-des text-sm sm:text-lg md:text-xl lg:text-2xl xl:text-2xl p-2 font-semibold text-center w-full sm:w-[90%] md:w-[90%] lg:w-[75%] xl:w-[60%] 2xl:w-[50%]"
+          class="section-des text-sm sm:text-lg md:text-xl lg:text-2xl xl:text-2xl 2xl:text-3xl p-2 font-medium text-center w-full sm:w-[90%] md:w-[90%] lg:w-[75%] xl:w-[60%] 2xl:w-[50%]"
         >
           Gcontent integrates strategy, marketing, design and technology to
           drive customer preference.
@@ -126,10 +138,14 @@
 
       <!-- Servicess ---------------------------------------- -->
       <section
-        class="mt-5 md:mt-[3rem] lg:mt-[6.25rem] container mx-auto md:px-10"
+        class="mt-5 md:mt-[3rem] lg:mt-[6.25rem] 2xl:mt-[10rem] container mx-auto md:px-10"
       >
         <div class="section-title">
-          <h2 class="text-center text-4xl font-semibold">Our Services</h2>
+          <h2
+            class="section-title py-10 md:py-0 text-center text-4xl xl:text-5xl 2xl:text-6xl font-semibold"
+          >
+            Our Services
+          </h2>
         </div>
 
         <div class="w-[80%] md:w-[100%] xl:w-[85%] mx-auto">
@@ -137,7 +153,7 @@
             class="mt-5 md:mt-[5rem] w-full h-full container mx-auto flex flex-col md:grid sm:grid-cols-5 gap-5 xl:gap-16 p-3 lg:p-0"
           >
             <div
-              class="col-span-2 h-[20rem] sm:h-[32rem] md:h-[42rem] border-4 border-white hover:border-[#7489F7] shadow-lg md:shadow-xl p-5 md:p-10 rounded-xl cursor-pointer outer hborder duration-500"
+              class="col-span-2 h-[20rem] sm:h-[20rem] md:h-[42rem] border-4 border-white hover:border-[#7489F7] shadow-lg md:shadow-xl p-5 md:p-10 rounded-xl cursor-pointer outer hborder duration-500"
             >
               <div class="flex flex-col gap- md:gap-5 m-0 md:mt-5 inner">
                 <div class="w-20">
@@ -225,11 +241,11 @@
 
       <!-- Some of our hand-picked work--------------------------------- -->
       <section
-        class="mt-5 md:mt-[3rem] lg:mt-[6.25rem] container mx-auto p-3 md:px-10 lg:px-10"
+        class="mt-5 md:mt-[3rem] lg:mt-[6.25rem] 2xl:mt-[10rem] container mx-auto p-3 md:px-10 lg:px-10"
       >
         <div class="">
           <h2
-            class="text-center mt-0 md:mt-5 text-2xl md:text-4xl font-semibold"
+            class="section-title py-10 md:py-0 text-center text-4xl xl:text-5xl 2xl:text-6xl font-semibold 2xl:mb-[7rem]"
           >
             Some of our hand-picked work
           </h2>
@@ -300,9 +316,13 @@
 
       <!-- We are on News Paper --------------- -->
 
-      <section class="mt-5 md:mt-[3rem] lg:mt-[5rem] w-[90%] container mx-auto">
+      <section
+        class="mt-5 md:mt-[3rem] lg:mt-[5rem] 2xl:mt-[7rem] w-[90%] container mx-auto"
+      >
         <div class="">
-          <h2 class="text-2xl sm:text-4xl font-semibold text-center">
+          <h2
+            class="section-title py-10 md:py-0 text-center text-4xl xl:text-5xl 2xl:text-6xl font-semibold 2xl:mb-[7rem]"
+          >
             We are on News Paper
           </h2>
 
@@ -552,7 +572,7 @@
     <footer class="">
       <div class="bg-[#1A1825] 2xl:h-[20rem]">
         <div
-          class="h-full wrapper sm:grid grid-cols-2 md:py-10 py-5 px-3 flex flex-col"
+          class="h-full wrapper sm:grid grid-cols-2 md:py-10 py-5 px-3 2xl:p-20 flex flex-col"
         >
           <div class="left text-white col-span-1 flex flex-col gap-4">
             <h3 class="text-xl md:text-3xl 2xl:text-5xl font-semibold">
