@@ -78,13 +78,17 @@
     </section>
 
     <section
-      class="mt-5 md:mt-[3rem] lg:mt-[5rem] container mx-auto w-full h-full"
+      class="mt-5 md:mt-[3rem] lg:mt-[5rem] container px-5 sm:px-10 md:p-0 mx-auto w-full h-full"
     >
       <div
-        class="flex flex-col sm:grid grid-cols-2 gap-5 w-full p-3 sm:w-full md:w-[80%] mx-auto"
+        class="flex flex-col lg:grid grid-cols-2 gap-5 w-full p-3 sm:w-full md:w-[80%] mx-auto"
       >
         <div class="left flex justify-end rounded-lg">
-          <img src="./assets/image/h.png" alt="image" />
+          <img
+            src="./assets/image/h.png"
+            alt="image"
+            class="w-full object-cover"
+          />
         </div>
         <div class="right flex flex-col justify-center gap-2 sm:gap-5">
           <h3 class="text-3xl lg:text-4xl font-semibold">Schedule a Meeting</h3>
@@ -100,65 +104,65 @@
       </div>
     </section>
 
-    <section
-      class="mt-5 sm:mt-[3rem] lg:mt-[5rem] container mx-auto h-full sm:h-[60vh]"
-    >
-      <div class="flex flex-col gap-5 sm:grid grid-cols-2 w-full h-[70%]">
-        <div class="col-span-1 flex flex-col justify-between p-3">
-          <h3 class="text-2xl">Let's talk</h3>
-          <p class="text-xl w-[70%]">
-            We'd love to hear your requirements and work seamlessly together
-          </p>
-          <div class="">
-            <p class="text-xl font-semibold">Email</p>
-            <span>hello@gcontent.com</span>
+    <section class="mt-5 sm:mt-[3rem] lg:mt-[5rem] h-full sm:h-[60vh]">
+      <div class="max-w-[90%] container mx-auto">
+        <div class="flex flex-col gap-5 sm:grid grid-cols-2 w-full h-[70%]">
+          <div class="col-span-1 flex flex-col justify-between p-3">
+            <h3 class="text-3xl font-semibold">Let's talk</h3>
+            <p class="text-xl w-[70%]">
+              We'd love to hear your requirements and work seamlessly together
+            </p>
+            <div class="">
+              <p class="text-xl font-semibold">Email:</p>
+              <span class="font-medium">hello@gcontent.com</span>
+            </div>
+            <div class="">
+              <p class="text-xl font-semibold">Visit Us Personaly</p>
+              <span>63/F (4th Floor), Lake Circus, Dhaka 1205.</span>
+            </div>
           </div>
-          <div class="">
-            <p class="text-xl font-semibold">Visit Us Personaly</p>
-            <span>63/F (4th Floor), Lake Circus, Dhaka 1205.</span>
-          </div>
-        </div>
-        <div class="col-span-1">
-          <div class="w-full h-full bg-[#FFF9EB] p-10">
-            <div class="sm:flex flex-col justify-between h-full">
-              <div class="flex flex-col md:flex-row md:justify-between gap-5">
-                <div class="flex flex-col w-full">
-                  <label for="name">Your Name*</label>
+          <div class="col-span-1">
+            <div class="w-full h-full bg-[#FFF9EB] p-10">
+              <div class="sm:flex flex-col justify-between h-full">
+                <div class="flex flex-col md:flex-row md:justify-between gap-5">
+                  <div class="flex flex-col w-full">
+                    <label for="name">Your Name*</label>
+                    <input
+                      type="text"
+                      class="bg-transparent border-b-2 border-black outline-none w-full"
+                    />
+                  </div>
+                  <div class="flex flex-col w-full">
+                    <label for="email">Email Address *</label>
+                    <input
+                      type="email"
+                      class="bg-transparent border-b-2 border-black outline-none w-full"
+                    />
+                  </div>
+                </div>
+                <div class="flex flex-col md:flex-row gap-5 md:justify-between">
+                  <div class="mt-5 flex flex-col w-full">
+                    <label for="phone">Phone</label>
+                    <input
+                      type="number"
+                      class="bg-transparent border-b-2 border-black outline-none w-full"
+                    />
+                  </div>
+                  <div class="mt-5 flex flex-col w-full">
+                    <label for="company"> Company </label>
+                    <input
+                      type="text"
+                      class="bg-transparent border-b-2 border-black outline-none w-full"
+                    />
+                  </div>
+                </div>
+                <div class="flex flex-col mt-5">
+                  <label for="message">Message</label>
                   <input
-                    type="text"
-                    class="bg-transparent border-b-2 border-black outline-none w-full"
+                    type="message"
+                    class="bg-transparent border-b-2 border-black outline-none"
                   />
                 </div>
-                <div class="flex flex-col w-full">
-                  <label for="email">Email Address *</label>
-                  <input
-                    type="email"
-                    class="bg-transparent border-b-2 border-black outline-none w-full"
-                  />
-                </div>
-              </div>
-              <div class="flex flex-col md:flex-row gap-5 md:justify-between">
-                <div class="mt-5 flex flex-col w-full">
-                  <label for="phone">Phone</label>
-                  <input
-                    type="number"
-                    class="bg-transparent border-b-2 border-black outline-none w-full"
-                  />
-                </div>
-                <div class="mt-5 flex flex-col w-full">
-                  <label for="company"> Company </label>
-                  <input
-                    type="text"
-                    class="bg-transparent border-b-2 border-black outline-none w-full"
-                  />
-                </div>
-              </div>
-              <div class="flex flex-col mt-5">
-                <label for="message">Message</label>
-                <input
-                  type="message"
-                  class="bg-transparent border-b-2 border-black outline-none"
-                />
               </div>
             </div>
           </div>
