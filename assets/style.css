@@ -296,7 +296,7 @@ button {
 
 @media only screen and (min-width: 320px) {
   .dots {
-    bottom: 110px;
+    bottom: 0px;
   }
 }
 @media only screen and (min-width: 640px) {
@@ -310,12 +310,21 @@ button {
   }
 }
 
-.gallery-title {
-  display: none;
-  visibility: hidden;
+.gallery-title:hover p {
+  opacity: 1;
+  background-color: #faba33;
 }
 
-.gallery-title:hover {
-  display: block;
-  visibility: visible;
-}
+/* .gallery-title:hover::after {
+  content: "md ariful islam";
+  content: "ceo";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  width: 100%;
+  background-color: #faba33;
+  padding: 1rem;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+} */
