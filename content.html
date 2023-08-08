@@ -7,30 +7,34 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script defer src="./assets/script.js"></script>
     <link rel="stylesheet" href="./assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
   </head>
-  <body>
+  <body class="overflow-hidden">
     <!-- Navber  -->
     <header
-      class="h-20 top-0 left-0 right-0 bg-[#1E1D2D] backdrop-blur-lg z-[1000]"
+      class="h-20 top-0 left-0 right-0 bg-[#1E1D2D] backdrop-blur-lg border-b sm:border-none z-[1000] md:px-10"
     >
       <div
-        class="container mx-auto w-full h-full flex justify-between items-center text-white"
+        class="container sm:px-10 md:px-6 lg:px-10 xl:px-20 mx-auto w-full h-full flex justify-between items-center text-white"
       >
-        <nav class="nav-left p-3 lg:p-0">
+        <nav class="nav-left p-3 sm:p-0 lg:p-0">
           <img src="./assets/image/logo.png" alt="logo" />
         </nav>
         <nav class="nav-right hidden sm:block">
-          <ul class="flex items-center gap-8 navLinks text-lg">
+          <ul class="flex items-center sm:gap-3 lg:gap-8 navLinks text-lg">
             <li class="hover:text-[#FABA33]">
-              <a href="/" class=""> Home </a>
+              <a href="./index.html" class=""> Home </a>
             </li>
 
             <li class="dropdown">
               <button class="dropbtn text-lg hover:text-[#FABA33]">
                 <span>Services</span> <i class="uil uil-angle-down"></i>
               </button>
-              <div class="dropdown-content w-[20rem] rounded-lg py-5 z-[100]">
-                <a href="#" class="">UI/UX Design</a>
+              <div class="dropdown-content w-[20rem] rounded-lg py-5 z-[99]">
+                <a href="./uiux.html" class="">UI/UX Design</a>
                 <a href="#">Content Writing</a>
                 <a href="#">Video Editing</a>
                 <a href="#">Digital Marketing</a>
@@ -45,12 +49,12 @@
               <a href="./about.html" class=""> About Us </a>
             </li>
             <li class="hover:text-[#FABA33]">
-              <button
-                href="./content.html"
-                class="border border-[#FABA33] text-[#FABA33] font-semibold py-2 px-4 rounded-lg hover:bg-[#FABA33] hover:text-black"
+              <a
+                href="./contact.html"
+                class="border border-[#FABA33] text-[#FABA33] font-semibold py-1 px-2 lg:py-2 lg:px-4 rounded-lg hover:bg-[#FABA33] hover:text-black"
               >
                 Contact Us
-              </button>
+              </a>
             </li>
           </ul>
         </nav>

@@ -13,28 +13,26 @@
     />
   </head>
   <body class="overflow-x-hidde">
-    <!-- Navber  -->
+    <!-- Navber-----------  -->
     <header
-      class="h-20 top-0 left-0 right-0 bg-[#1E1D2D] backdrop-blur-lg z-[1000] px-5 sm:px-10"
+      class="h-20 top-0 left-0 right-0 bg-[#1E1D2D] backdrop-blur-lg border-b sm:border-none z-[1000] md:px-10"
     >
-      <div
-        class="container mx-auto w-full h-full flex justify-between items-center text-white"
-      >
-        <nav class="nav-left p-3 lg:p-0">
+      <div class="wrapper h-full flex justify-between items-center text-white">
+        <nav class="nav-left p-3 sm:p-0 lg:p-0">
           <img src="./assets/image/logo.png" alt="logo" />
         </nav>
         <nav class="nav-right hidden sm:block">
-          <ul class="flex items-center gap-8 navLinks text-lg">
+          <ul class="flex items-center sm:gap-3 lg:gap-8 navLinks text-lg">
             <li class="hover:text-[#FABA33]">
-              <a href="/" class=""> Home </a>
+              <a href="./index.html" class=""> Home </a>
             </li>
 
             <li class="dropdown">
               <button class="dropbtn text-lg hover:text-[#FABA33]">
                 <span>Services</span> <i class="uil uil-angle-down"></i>
               </button>
-              <div class="dropdown-content w-[20rem] rounded-lg py-5 z-[100]">
-                <a href="#" class="">UI/UX Design</a>
+              <div class="dropdown-content w-[20rem] rounded-lg py-5 z-[99]">
+                <a href="./uiux.html" class="">UI/UX Design</a>
                 <a href="#">Content Writing</a>
                 <a href="#">Video Editing</a>
                 <a href="#">Digital Marketing</a>
@@ -49,12 +47,12 @@
               <a href="./about.html" class=""> About Us </a>
             </li>
             <li class="hover:text-[#FABA33]">
-              <button
-                href="./content.html"
-                class="border border-[#FABA33] text-[#FABA33] font-semibold py-2 px-4 rounded-lg hover:bg-[#FABA33] hover:text-black"
+              <a
+                href="./contact.html"
+                class="border border-[#FABA33] text-[#FABA33] font-semibold py-1 px-2 lg:py-2 lg:px-4 rounded-lg hover:bg-[#FABA33] hover:text-black"
               >
                 Contact Us
-              </button>
+              </a>
             </li>
           </ul>
         </nav>
@@ -75,12 +73,12 @@
     </section>
 
     <section
-      class="mt-5 sm:mt-10 container px-5 sm:px-10 mx-auto w-full h-full p-3"
+      class="mt-5 sm:mt-[3rem] lg:mt-[5rem] 2xl:mt-[7rem] wrapper h-full"
     >
-      <div class="lg:grid flex flex-col grid-cols-2 gap-5 s">
+      <div class="flex flex-col lg:grid justify-between grid-cols-2 gap-5 s">
         <div class="left flex flex-col justify-center">
           <h3
-            class="sm:text-4xl text-xl lg:text-4xl xl:text-5xl font-semibold text-center lg:text-start"
+            class="sm:text-4xl text-xl lg:text-4xl xl:text-6xl font-semibold text-center lg:text-start tracking-wide"
           >
             Product Development For Butter Business
           </h3>
@@ -100,7 +98,7 @@
       </div>
     </section>
 
-    <section class="mt-5 sm:mt-10 w-[100vw] container px-5 sm:px-10 mx-auto">
+    <section class="mt-5 sm:mt-[3rem lg:mt-[5rem] 2xl:mt-[7rem] wrapper">
       <div class="flex gap-3 sm:gap-3 justify-center md:justify-between md:px-">
         <div class="">
           <h5 class="text-xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold">
@@ -131,84 +129,86 @@
 
     <!-- How We Work section -->
     <section
-      class="mt-10 bg-[#FFF8EB] w-full sm:p-0 h-full md:h-[75rem] lg:h-[40rem] 2xl:h-[40rem]"
+      class="mt-5 sm:mt-[3rem] lg:mt-[5rem] 2xl:mt-[7rem] bg-[#FFF8EB] w-full sm:p-0 h-full md:h-[75rem] lg:h-[50rem] 2xl:h-[40rem] flex items-center justify-center"
     >
       <div class="">
-        <div class="container px-5 sm:px-10 mx-auto">
-          <div
-            class="section-title text-center flex flex-col sm:p-10 w-full h-full"
-          >
-            <h2 class="text-4xl md:text-5xl font-semibold">How We Work</h2>
-            <p
-              class="text-lg md:text-2xl mt-3 w-full sm:w-[90%] lg:w-[50%] mx-auto"
+        <div class="">
+          <div class="wrapper">
+            <div
+              class="section-title pt-10 text-center flex flex-col w-full h-full"
             >
-              At Gcontent, we are passionate about creating captivating and
-              impactful content that helps businesses thrive in the digital
-              world. As a leading digital marketing agency.
-            </p>
-          </div>
-          <div
-            class="w-full flex flex-col sm:px- lg:grid grid-cols-4 gap-5 sm:gap-8 pb-8"
-          >
-            <div class="col-span-1">
-              <div
-                class="bg-white w-10 h-10 md:w-[3rem] md:h-[3rem] flex justify-center items-center"
+              <h2 class="text-4xl md:text-5xl font-semibold">How We Work</h2>
+              <p
+                class="text-lg md:text-2xl mt-3 w-full sm:w-[90%] lg:w-[50%] mx-auto"
               >
-                <img src="./assets/image/Vector (2).png" alt="" />
-              </div>
-              <h3 class="text-xl font-bold mt-3 sm:text-2xl md:text-3xl">
-                Understand your Brief
-              </h3>
-              <p class="text-lg mt-2 sm:text-xl md:text-2xl">
                 At Gcontent, we are passionate about creating captivating and
                 impactful content that helps businesses thrive in the digital
-                world.
+                world. As a leading digital marketing agency.
               </p>
             </div>
-            <div class="col-span-1">
-              <div
-                class="bg-white w-10 h-10 md:w-[3rem] md:h-[3rem] flex justify-center items-center"
-              >
-                <img src="./assets/image/Group (2).png" alt="" />
+            <div
+              class="mt-10 w-full flex flex-col sm:px- lg:grid grid-cols-4 gap-5 sm:gap-8 pb-8"
+            >
+              <div class="col-span-1">
+                <div
+                  class="bg-white w-10 h-10 md:w-[3rem] md:h-[3rem] flex justify-center items-center"
+                >
+                  <img src="./assets/image/Vector (2).png" alt="" />
+                </div>
+                <h3 class="text-xl font-bold mt-3 sm:text-2xl md:text-3xl">
+                  Understand your Brief
+                </h3>
+                <p class="text-lg mt-2 sm:text-xl md:text-2xl">
+                  At Gcontent, we are passionate about creating captivating and
+                  impactful content that helps businesses thrive in the digital
+                  world.
+                </p>
               </div>
-              <h3 class="text-xl font-bold sm:text-2xl mt-3 md:text-3xl">
-                Discuss with you
-              </h3>
-              <p class="text-lg mt-2 sm:text-xl md:text-2xl">
-                At Gcontent, we are passionate about creating captivating and
-                impactful content that helps businesses thrive in the digital
-                world.
-              </p>
-            </div>
-            <div class="col-span-1">
-              <div
-                class="bg-white w-10 h-10 md:w-[3rem] md:h-[3rem] flex justify-center items-center"
-              >
-                <img src="./assets/image/Group (3).png" alt="" />
+              <div class="col-span-1">
+                <div
+                  class="bg-white w-10 h-10 md:w-[3rem] md:h-[3rem] flex justify-center items-center"
+                >
+                  <img src="./assets/image/Group (2).png" alt="" />
+                </div>
+                <h3 class="text-xl font-bold sm:text-2xl mt-3 md:text-3xl">
+                  Discuss with you
+                </h3>
+                <p class="text-lg mt-2 sm:text-xl md:text-2xl">
+                  At Gcontent, we are passionate about creating captivating and
+                  impactful content that helps businesses thrive in the digital
+                  world.
+                </p>
               </div>
-              <h3 class="text-xl font-bold mt-3 sm:text-2xl md:text-3xl">
-                Development
-              </h3>
-              <p class="text-lg mt-2 sm:text-xl md:text-2xl">
-                At Gcontent, we are passionate about creating captivating and
-                impactful content that helps businesses thrive in the digital
-                world.
-              </p>
-            </div>
-            <div class="col-span-1">
-              <div
-                class="bg-white w-10 h-10 md:w-[3rem] md:h-[3rem] flex justify-center items-center"
-              >
-                <img src="./assets/image/Vector (3).png" alt="" />
+              <div class="col-span-1">
+                <div
+                  class="bg-white w-10 h-10 md:w-[3rem] md:h-[3rem] flex justify-center items-center"
+                >
+                  <img src="./assets/image/Group (3).png" alt="" />
+                </div>
+                <h3 class="text-xl font-bold mt-3 sm:text-2xl md:text-3xl">
+                  Development
+                </h3>
+                <p class="text-lg mt-2 sm:text-xl md:text-2xl">
+                  At Gcontent, we are passionate about creating captivating and
+                  impactful content that helps businesses thrive in the digital
+                  world.
+                </p>
               </div>
-              <h3 class="text-xl font-bold mt-3 sm:text-2xl md:text-3xl">
-                Delivery
-              </h3>
-              <p class="text-lg mt-2 sm:text-xl md:text-2xl">
-                At Gcontent, we are passionate about creating captivating and
-                impactful content that helps businesses thrive in the digital
-                world.
-              </p>
+              <div class="col-span-1">
+                <div
+                  class="bg-white w-10 h-10 md:w-[3rem] md:h-[3rem] flex justify-center items-center"
+                >
+                  <img src="./assets/image/Vector (3).png" alt="" />
+                </div>
+                <h3 class="text-xl font-bold mt-3 sm:text-2xl md:text-3xl">
+                  Delivery
+                </h3>
+                <p class="text-lg mt-2 sm:text-xl md:text-2xl">
+                  At Gcontent, we are passionate about creating captivating and
+                  impactful content that helps businesses thrive in the digital
+                  world.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -227,7 +227,7 @@
         <img src="./assets/image/”.png" alt="imag" class="w-10 md:w-16" />
       </div>
       <div
-        class="slider container w-full md:w-[100vw] h-[35rem] mx-auto relative overflow-hidden"
+        class="slider wrapper w-full md:w-[100vw] h-[35rem] mx-auto relative overflow-hidden"
       >
         <div
           class="slide slide--1 w-full flex duration-300 pt-5 justify-center xl:justify-center pt-[5rem] sm:pt-[7rem] md:pt-[6rem] lg:pt-[8rem] xl:pt-[10rem]"
@@ -364,7 +364,7 @@
     </section>
 
     <!-- Gallery ------------------- -->
-    <section class="sm:mt-[3rem] md:mt-[5rem] px-5 sm:px-10 container mx-auto">
+    <section class="sm:mt-[3rem] md:mt-[5rem] wrapper">
       <div class="text-center">
         <h2 class="text-2xl sm:text-5xl mb-10 font-semibold xl:pb-10">
           Our Founders
@@ -537,7 +537,7 @@
     <footer class="mt-[3rem]">
       <div class="bg-[#1A1825]">
         <div
-          class="w-full h-full container mx-auto sm:grid grid-cols-2 md:py-10 py-5 px-3 flex flex-col md:px-10"
+          class="h-full wrapper sm:grid grid-cols-2 md:py-10 py-5 px-3 flex flex-col"
         >
           <div class="left text-white col-span-1 flex flex-col gap-4">
             <h3 class="text-xl md:text-3xl font-semibold">Gcontent</h3>
