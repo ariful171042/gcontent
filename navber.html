@@ -1,116 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Navigation</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script defer src="./assets/script.js"></script>
-    <link rel="stylesheet" href="./assets/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
-    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
-    <header
-      class="h-20 top-0 left-0 right-0 bg-[#1E1D2D] backdrop-blur-lg border-b sm:border-none z-[1000]"
-    >
-      <div class="wrapper h-full flex justify-between items-center text-white">
-        <nav class="nav-left">
-          <img src="./assets/image/logo.png" alt="logo" />
-        </nav>
-        <nav class="nav-right hidden sm:block">
-          <ul class="flex items-center gap-8 navLinks text-lg">
-            <li class="hover:text-[#FABA33]">
-              <a href="/" class=""> Home </a>
-            </li>
-
-            <li class="dropdown">
-              <button class="dropbtn text-lg hover:text-[#FABA33]">
-                <span>Services</span> <i class="uil uil-angle-down"></i>
-              </button>
-              <div class="dropdown-content w-[20rem] rounded-lg py-5 z-[99]">
-                <a href="#" class="">UI/UX Design</a>
-                <a href="#">Content Writing</a>
-                <a href="#">Video Editing</a>
-                <a href="#">Digital Marketing</a>
-                <a href="#">Green Screen</a>
-              </div>
-            </li>
-
-            <li class="hover:text-[#FABA33]">
-              <a href="./career.html" class=""> Career </a>
-            </li>
-            <li class="hover:text-[#FABA33]">
-              <a href="./about.html" class=""> About Us </a>
-            </li>
-            <li class="hover:text-[#FABA33]">
-              <button
-                href="./content.html"
-                class="border border-[#FABA33] text-[#FABA33] font-semibold py-2 px-4 rounded-lg hover:bg-[#FABA33] hover:text-black"
-              >
-                Contact Us
-              </button>
-            </li>
-          </ul>
-        </nav>
-
-        <div class="mobile-container md:hidden">
-          <!-- Top Navigation Menu -->
-          <div class="topnav">
-            <a href="#home" class="active">Logo</a>
-            <div id="myLinks">
-              <ul>
-                <li class="hover:text-[#FABA33]">
-                  <a href="/" class=""> Home </a>
-                </li>
-
-                <li class="dropdown">
-                  <button class="dropbtn text-lg hover:text-[#FABA33]">
-                    <span>Services</span> <i class="uil uil-angle-down"></i>
-                  </button>
-                  <div
-                    class="dropdown-content w-[20rem] rounded-lg py-5 z-[99]"
-                  >
-                    <a href="#" class="">UI/UX Design</a>
-                    <a href="#">Content Writing</a>
-                    <a href="#">Video Editing</a>
-                    <a href="#">Digital Marketing</a>
-                    <a href="#">Green Screen</a>
-                  </div>
-                </li>
-
-                <li class="hover:text-[#FABA33]">
-                  <a href="./career.html" class=""> Career </a>
-                </li>
-                <li class="hover:text-[#FABA33]">
-                  <a href="./about.html" class=""> About Us </a>
-                </li>
-                <li class="hover:text-[#FABA33]">
-                  <button
-                    href="./content.html"
-                    class="border border-[#FABA33] text-[#FABA33] font-semibold py-2 px-4 rounded-lg hover:bg-[#FABA33] hover:text-black"
-                  >
-                    Contact Us
-                  </button>
-                </li>
-              </ul>
-            </div>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="uil uil-align-justify"></i>
-            </a>
-          </div>
-
-          <!-- End smartphone / tablet look -->
-        </div>
+    <div class="topnav" id="myTopnav">
+      <div class="">
+        <a href="#home" class="active">
+          <img src="./assets/image/logo.png" alt="" />
+        </a>
       </div>
-    </header>
-    <!-- Simulate a smartphone / tablet -->
+      <div class="">
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Dropdown
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+        <a href="#about">About</a>
+        <a
+          href="javascript:void(0);"
+          style="font-size: 15px"
+          class="icon"
+          onclick="myFunction()"
+          >&#9776;</a
+        >
+      </div>
+    </div>
   </body>
 </html>

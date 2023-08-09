@@ -94,24 +94,32 @@ toggleBtn.addEventListener("click", function (event) {
   }
 });
 
-navLinks.addEventListener("click", function () {
-  navLinks.classList.contains("nav__open") &&
-    navLinks.classList.remove("nav__open");
-  document.querySelector("html").style.overflow = "visible";
-});
+// navLinks.addEventListener("click", function () {
+//   navLinks.classList.contains("nav__open") &&
+//     navLinks.classList.remove("nav__open");
+//   document.querySelector("html").style.overflow = "visible";
+// });
 
-const btn = document.querySelector("button.mobile-menu-button");
-const menu = document.querySelector(".mobile-menu");
+// const btn = document.querySelector("button.mobile-menu-button");
+// const menu = document.querySelector(".mobile-menu");
 
-btn.addEventListener("click", () => {
-  menu.classList.toggle("hidden");
-});
+// btn.addEventListener("click", () => {
+//   menu.classList.toggle("hidden");
+// });
 
+// function myFunction() {
+//   var x = document.getElementById("myLinks");
+//   if (x.style.display === "block") {
+//     x.style.display = "none";
+//   } else {
+//     x.style.display = "block";
+//   }
+// }
 function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
   } else {
-    x.style.display = "block";
+    x.className = "topnav";
   }
 }
