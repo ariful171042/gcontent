@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script defer src="./assets/script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./assets/mobile.css" />
+  </head>
+  <body>
+    <div class="topnav md:hidden" id="myTopnav">
+      <a href="#home" class="active">
+        <img src="./assets/image/logo.png" alt="" />
+      </a>
+      <a href="#news">home</a>
+      <div class="dropdown">
+        <a class="dropbtn">
+          Services
+          <i class="fa fa-caret-down"></i>
+        </a>
+        <div class="dropdown-content">
+          <a href="#">Content Writing</a>
+          <a href="#">Video Editing</a>
+          <a href="#">Digital Marketing</a>
+          <a href="#">Green Screen</a>
+        </div>
+      </div>
+      <a href="#contact">Career</a>
+      <a href="#contact">About Us</a>
+      <a
+        href="./contact.html"
+        class="border border-[#FABA33] pl-5 w-[10rem] text-[#FABA33] font-semibold py-1 px-2 rounded-lg hover:bg-[#FABA33] hover:text-black"
+      >
+        Contact Us
+      </a>
+      <a
+        href="javascript:void(0);"
+        style="font-size: 15px"
+        class="icon"
+        onclick="myFunction()"
+        >&#9776;</a
+      >
+    </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>
